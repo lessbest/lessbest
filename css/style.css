@@ -108,6 +108,9 @@ label{
     font-weight: 700;
     font-size: 20px;
 }
+.navbar-brand-less{
+    color: #666;
+}
 .list-inline>li{
     padding-right: 0px;
 }

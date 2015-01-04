@@ -109,7 +109,7 @@ label{
     font-size: 20px;
 }
 .navbar-brand-less{
-    color: #666;
+    color: #999;
 }
 .list-inline>li{
     padding-right: 0px;
@@ -502,9 +502,9 @@ h2.slide-btm-text{
 }
 
 /*———————————————————————————————————————————————————————————————————————————*/
-/*  Product                                                                  */
+/*  Rationale                                                                  */
 /*———————————————————————————————————————————————————————————————————————————*/
-#product{
+#rationale{
     background: url("../img/showcase-2.jpg");
 }
 .service-icon i{

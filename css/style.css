@@ -33,7 +33,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #21DCA4;
+    color: #1DC492;
     text-decoration: none;
 }
 strong, b{
@@ -63,11 +63,11 @@ label{
     margin-bottom: 30px;
 }
 ::selection{
-    background: #21DCA4; /* Safari */
+    background: #1DC492; /* Safari */
     color: #fff;
 }
 ::-moz-selection{
-    background: #21DCA4; /* Firefox */
+    background: #1DC492; /* Firefox */
     color: #fff;
 }
 
@@ -94,7 +94,7 @@ label{
     font-family: "Montserrat", sans-serif;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: #21DCA4;
+    color: #1DC492;
     background-color: transparent;
 }
 .navbar-brand{
@@ -153,7 +153,7 @@ label{
     z-index: 3;
 }
 .colored-text{
-    color: #21DCA4;
+    color: #1DC492;
 }
 h2.slide-btm-text{
     text-align: center;
@@ -267,13 +267,13 @@ h2.slide-btm-text{
 }
 .btn-dark:hover{
     color: #fff;
-    background-color: #21DCA4;
+    background-color: #1DC492;
 }
 .btn-tagline{
     margin-top: -10px;
 }
 .btn-theme{
-    background-color: #21DCA4 !important;
+    background-color: #1DC492 !important;
     color: #fff;
 }
 .btn-theme:hover{
@@ -315,12 +315,12 @@ h2.slide-btm-text{
     width: 130px;
     margin: 0 auto;
     position: relative;
-    color: #21DCA4;
+    color: #1DC492;
 }
 .center-heading .icon:before{
     display: inline-block;
     content: "";
-    border-bottom: 1px solid #21DCA4;
+    border-bottom: 1px solid #1DC492;
     position: absolute;
     left: 0;
     top: 10px;
@@ -329,7 +329,7 @@ h2.slide-btm-text{
 .center-heading .icon:after{
     display: inline-block;
     content: "";
-    border-bottom: 1px solid #21DCA4;
+    border-bottom: 1px solid #1DC492;
     position: absolute;
     right: 0;
     top: 10px;
@@ -379,7 +379,7 @@ h2.slide-btm-text{
     -moz-transform: rotateY(360deg);
     -ms-transform: rotateY(360deg);
     -o-transform: rotateY(360deg);
-    background-color: #21DCA4;
+    background-color: #1DC492;
     color: #fff;
 }
 .service-box h3{
@@ -455,7 +455,7 @@ h2.slide-btm-text{
     line-height: 30px;
 }
 #testi-carousel p{
-    color: #21DCA4;
+    color: #1DC492;
 }
 
 /*———————————————————————————————————————————————————————————————————————————*/
@@ -484,7 +484,7 @@ h2.slide-btm-text{
 }
 .cta-1{
     padding: 40px 0;
-    background-color: #21DCA4;
+    background-color: #1DC492;
 }
 .cta-2{
     padding: 40px 0;
@@ -492,7 +492,7 @@ h2.slide-btm-text{
 }
 .cta-3{
     padding: 40px 0;
-    background-color: #21DCA4;
+    background-color: #1DC492;
 }
 .cta-3 h3{
     color: #fff;
@@ -513,7 +513,7 @@ h2.slide-btm-text{
     line-height: 70px;
     text-align: center;
     color: #fff;
-    background-color: #21DCA4;
+    background-color: #1DC492;
     border-radius: 35px;
     -webkit-border-radius: 35px;
     margin-top: 5px;
@@ -521,7 +521,7 @@ h2.slide-btm-text{
     font-size: 30px;
 }
 .service-info h4{
-    color: #21DCA4;
+    color: #1DC492;
     font-size: 24px;
     font-weight: 400;
 }
@@ -559,14 +559,14 @@ h2.slide-btm-text{
     transition: 0.7s ease-in-out;
 }
 .portfolio-filters li:hover{
-    background-color: #21DCA4;
+    background-color: #1DC492;
     color: #fff;
-    border-color: #21DCA4;
+    border-color: #1DC492;
 }
 .portfolio-filters li.active{
-    background-color: #21DCA4;
+    background-color: #1DC492;
     color: #fff;
-    border-color: #21DCA4;
+    border-color: #1DC492;
 }
 .work-desc{
     padding: 15px 20px;
@@ -596,7 +596,7 @@ h2.slide-btm-text{
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    background: #21DCA4  !important;
+    background: #1DC492  !important;
 }
 .owl-theme .owl-controls .owl-page span{
     display: block;
@@ -608,7 +608,7 @@ h2.slide-btm-text{
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     border-radius: 0px !important;
-    background: #21DCA4 !important;
+    background: #1DC492 !important;
 }
 
 /*———————————————————————————————————————————————————————————————————————————*/
@@ -706,7 +706,7 @@ h2.slide-btm-text{
     text-align: center;
 }
 .plan-wrap.popular .price-title{
-    background-color: #21DCA4;
+    background-color: #1DC492;
     color: #fff;
 }
 
@@ -720,7 +720,7 @@ h2.slide-btm-text{
     font-size: 17px;
 }
 .address-info p i{
-    color: #21DCA4;
+    color: #1DC492;
     margin-right: 10px;
 }
 .address-info p{
@@ -743,7 +743,7 @@ h2.slide-btm-text{
 }
 .social li a i:hover{
     color: #fff;
-    background-color: #21DCA4;
+    background-color: #1DC492;
 }
 .contact-form form .form-control{
     min-height: 45px;
@@ -853,7 +853,7 @@ input[type="color"]:focus,
     color: #d5d5d5;
 }
 .copyright a{
-    color: #21DCA4;
+    color: #1DC492;
 }
 
 /*———————————————————————————————————————————————————————————————————————————*/
@@ -1004,7 +1004,7 @@ iframe{
     margin-left: 5px;
 }
 .cat-list li a:hover{
-    color: #21DCA4;
+    color: #1DC492;
 }
 blockquote{
     color: #aaa;
@@ -1024,7 +1024,7 @@ blockquote{
     font-weight: 400;
 }
 .comment-list h4 a{
-    color: #21DCA4;
+    color: #1DC492;
     margin-left: 8px;
 }
 .comment-list h4 a:hover{
@@ -1069,7 +1069,7 @@ h3.heading-progress{
 }
 .progress-bar{
     line-height: 10px;
-    background: #21DCA4;
+    background: #1DC492;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -1109,8 +1109,8 @@ h3.heading-progress{
     margin: 30px auto;
     width: 120px;
     height: 6px;
-    border-top: 1px solid #21DCA4;
-    border-bottom: 1px solid #21DCA4;
+    border-top: 1px solid #1DC492;
+    border-bottom: 1px solid #1DC492;
     line-height: 10px;
 }
 .project-desc h4{
@@ -1169,7 +1169,7 @@ h3.heading-progress{
     right: 0px;
     z-index: 999999;
     display: none;
-    background: #21DCA4;
+    background: #1DC492;
     opacity: 0.5;
     transition: all 0.3s;
 }
@@ -1199,7 +1199,7 @@ h3.heading-progress{
     font-family: "FontAwesome";
     margin-right: 15px;
     font-size: 16px;
-    color: #21DCA4;
+    color: #1DC492;
 }
 .tweet ul li .date{
     padding: 3px 0;
@@ -1219,7 +1219,7 @@ h3.heading-progress{
     font-size: 12px;
 }
 .tweet li a:hover{
-    color: #21DCA4;
+    color: #1DC492;
 }
 
 /*———————————————————————————————————————————————————————————————————————————*/

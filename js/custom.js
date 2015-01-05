@@ -1,22 +1,13 @@
-/*Theme    : Quick
- * Author  : Design_mylife
- * Version : V1.0
- *
- */
-
-/* ==============================================
- Sticky Navbar
- =============================================== */
-
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Sticky Navbar                                                            */
+/*———————————————————————————————————————————————————————————————————————————*/
 $(document).ready(function() {
     $(".navbar").sticky({topSpacing: 0});
 });
 
-
-
-/* ==============================================
- main flex slider
- =============================================== */
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Main Flex Slider                                                         */
+/*———————————————————————————————————————————————————————————————————————————*/
 $(window).load(function() {
     $('.main-flex-slider').flexslider({
         slideshowSpeed: 5000,
@@ -26,11 +17,9 @@ $(window).load(function() {
     });
 });
 
-
-/* ==============================================
- Auto Close Responsive Navbar on Click
- =============================================== */
-
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Auto Close Responsive Navbar on Click                                    */
+/*———————————————————————————————————————————————————————————————————————————*/
 function close_toggle() {
     if ($(window).width() <= 768) {
         $('.navbar-collapse a').on('click', function() {
@@ -42,44 +31,13 @@ function close_toggle() {
     }
 }
 close_toggle();
-
 $(window).resize(close_toggle);
 
-
-/* ===================================================================
- TWEETIE -  TWITTER FEED PLUGIN THAT WORKS WITH NEW Twitter 1.1 API
- ==================================================================== */
-$('.tweet').twittie({
-    apiPath: 'twit-api/tweet.php',
-    dateFormat: '%b. %d, %Y',
-    template: '{{tweet}} <div class="date">{{date}}</div> <a href="{{url}}"{{screen_name}}',
-    count: 2
-});
-
-/***================================================== */
-$('.chart').each(function () {
-    var $this = $(this);
-    var color = $(this).data('scale-color');
-
-    setTimeout(function () {
-        $this.filter(':visible').waypoint(function (direction) {
-            $(this).easyPieChart({
-                barColor: color,
-                trackColor: '#fff',
-                onStep: function (from, to, percent) {
-                    jQuery(this.el).find('.percent').text(Math.round(percent));
-                }
-            });
-        }, {offset: '100%'});
-    }, 500);
-
-});
-
-//owl carousel for testimonials
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Owl Carousel                                                             */
+/*———————————————————————————————————————————————————————————————————————————*/
 $(document).ready(function() {
-
     $("#testi-carousel").owlCarousel({
-        // Most important owl features
         items: 1,
         itemsCustom: false,
         itemsDesktop: [1199, 1],
@@ -91,9 +49,7 @@ $(document).ready(function() {
         startDragging: true,
         autoPlay: true
     });
-
     $("#work-slide").owlCarousel({
-        // Most important owl features
         items: 1,
         itemsCustom: false,
         itemsDesktop: [1199, 1],
@@ -105,23 +61,11 @@ $(document).ready(function() {
         startDragging: true,
         autoPlay: 10000
     });
-
 });
 
-/*=========================*/
-/*========portfolio mix====*/
-/*==========================*/
-$('#grid').mixitup();
-
-
-/*=========================*/
-/*========on hover dropdown navigation====*/
-/*==========================*/
-
-
-/* ==============================================
- Counter Up
- =============================================== */
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Counter                                                                  */
+/*———————————————————————————————————————————————————————————————————————————*/
 jQuery(document).ready(function($) {
     $('.counter').counterUp({
         delay: 100,
@@ -129,60 +73,51 @@ jQuery(document).ready(function($) {
     });
 });
 
-/* ==============================================
- WOW plugin triggers animate.css on scroll
- =============================================== */
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Scroll Animation                                                         */
+/*———————————————————————————————————————————————————————————————————————————*/
 
 var wow = new WOW(
         {
-            boxClass: 'wow', // animated element css class (default is wow)
+            boxClass: 'wow',          // animated element css class (default is wow)
             animateClass: 'animated', // animation css class (default is animated)
-            offset: 100, // distance to the element when triggering the animation (default is 0)
-            mobile: false        // trigger animations on mobile devices (true is default)
+            offset: 100,              // distance to the element when triggering the animation (default is 0)
+            mobile: false             // trigger animations on mobile devices (true is default)
         }
 );
 wow.init();
 
-
-//MAGNIFIC POPUP
-$('.show-image').magnificPopup({type: 'image'});
-
-
-
-//smooth scroll
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Smooth Scroll                                                            */
+/*———————————————————————————————————————————————————————————————————————————*/
 $(function() {
-	  $('.scrollto a[href*=#]:not([href=#])').click(function() {
+    $('.scrollto a[href*=#]:not([href=#])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 50
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top - 50
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-
-
-
-// Backstretch - Slider on Background
-
-
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Backstretch                                                              */
+/*———————————————————————————————————————————————————————————————————————————*/
 $(".fullscreen").backstretch([
-   "img/showcase-5.jpg",
-   "img/showcase-2.jpg",
-   "img/showcase-3.jpg"
+    "img/showcase-5.jpg",
+    "img/showcase-2.jpg",
+    "img/showcase-3.jpg"
 ], {duration: 5000, fade: 1000});
 
-
-//back to top
-
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Back To Top                                                              */
+/*———————————————————————————————————————————————————————————————————————————*/
 $(document).ready(function(){
-
-	//Check to see if the window is top if not then display button
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 800) {
 			$('.scrollToTop').fadeIn();
@@ -190,18 +125,13 @@ $(document).ready(function(){
 			$('.scrollToTop').fadeOut();
 		}
 	});
-
-	//Click event to scroll to top
 	$('.scrollToTop').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
-
-    /************parallax*********************/
     setTimeout(function() {
         $.stellar({
             horizontalScrolling: false
         });
     }, 1000);
-
 });

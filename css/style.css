@@ -1267,3 +1267,29 @@ h3.heading-progress{
 #mce-success-response{
     margin-bottom: 40px;
 }
+
+/*———————————————————————————————————————————————————————————————————————————*/
+/*  Others                                                                   */
+/*———————————————————————————————————————————————————————————————————————————*/
+.level{
+    font-size: 20px;
+}
+
+.level-number{
+    font-weight: 700;
+}
+
+.level-description{
+    color: #666;
+    font-weight: 200;
+    margin-left: -25px;
+}
+.rule{
+    color: #999;
+    font-size: 0.65em;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.tip{
+    margin-bottom: 2em;
+}
